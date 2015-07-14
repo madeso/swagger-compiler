@@ -30,11 +30,10 @@ Source
 Actual error
 ----------------------
 
-missing the following parameter:
-    description: "in: query"
+The 'id' parameter is missing the following (required) member "in: query"
 
 
-Swagger editor error:
+Swagger.io editor error:
 --------------------------
 
 Refuses to (re)load file. No error given.
@@ -42,21 +41,21 @@ Refuses to (re)load file. No error given.
 Codegen error
 ---------------------------
 
-java.lang.NullPointerException
-        at io.swagger.codegen.DefaultCodegen.fromParameter(DefaultCodegen.java:923)
-        at io.swagger.codegen.DefaultCodegen.fromOperation(DefaultCodegen.java:816)
-        at io.swagger.codegen.DefaultGenerator.processOperation(DefaultGenerator.java:352)
-        at io.swagger.codegen.DefaultGenerator.processPaths(DefaultGenerator.java:324)
-        at io.swagger.codegen.DefaultGenerator.generate(DefaultGenerator.java:153)
-        at io.swagger.codegen.cmd.Generate.run(Generate.java:124)
-        at io.swagger.codegen.SwaggerCodegen.main(SwaggerCodegen.java:35)
+    java.lang.NullPointerException
+            at io.swagger.codegen.DefaultCodegen.fromParameter(DefaultCodegen.java:923)
+            at io.swagger.codegen.DefaultCodegen.fromOperation(DefaultCodegen.java:816)
+            at io.swagger.codegen.DefaultGenerator.processOperation(DefaultGenerator.java:352)
+            at io.swagger.codegen.DefaultGenerator.processPaths(DefaultGenerator.java:324)
+            at io.swagger.codegen.DefaultGenerator.generate(DefaultGenerator.java:153)
+            at io.swagger.codegen.cmd.Generate.run(Generate.java:124)
+            at io.swagger.codegen.SwaggerCodegen.main(SwaggerCodegen.java:35)
 
 
 SwaggerCompiler error
 ------------------------------
 
-C:\folder\api.yml(144): Found 0 nodes named in, expected 1
-C:\folder\api.yml(144): ...while reading parameter id
-C:\folder\api.yml(141): ...while reading get
-C:\folder\api.yml(18): ...while reading path /getInformation
-C:\folder\api.yml: ...while reading C:\folder\api.yml
+    C:\folder\api.yml(144): Found 0 nodes named in, expected 1
+    C:\folder\api.yml(144): ...while reading parameter id
+    C:\folder\api.yml(141): ...while reading get
+    C:\folder\api.yml(18): ...while reading path /getInformation
+    C:\folder\api.yml: ...while reading C:\folder\api.yml
