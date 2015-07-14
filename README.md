@@ -42,13 +42,13 @@ Codegen error
 ---------------------------
 
     java.lang.NullPointerException
-            at io.swagger.codegen.DefaultCodegen.fromParameter(DefaultCodegen.java:923)
-            at io.swagger.codegen.DefaultCodegen.fromOperation(DefaultCodegen.java:816)
-            at io.swagger.codegen.DefaultGenerator.processOperation(DefaultGenerator.java:352)
-            at io.swagger.codegen.DefaultGenerator.processPaths(DefaultGenerator.java:324)
-            at io.swagger.codegen.DefaultGenerator.generate(DefaultGenerator.java:153)
-            at io.swagger.codegen.cmd.Generate.run(Generate.java:124)
-            at io.swagger.codegen.SwaggerCodegen.main(SwaggerCodegen.java:35)
+        at io.swagger.codegen.DefaultCodegen.fromParameter(DefaultCodegen.java:923)
+        at io.swagger.codegen.DefaultCodegen.fromOperation(DefaultCodegen.java:816)
+        at io.swagger.codegen.DefaultGenerator.processOperation(DefaultGenerator.java:352)
+        at io.swagger.codegen.DefaultGenerator.processPaths(DefaultGenerator.java:324)
+        at io.swagger.codegen.DefaultGenerator.generate(DefaultGenerator.java:153)
+        at io.swagger.codegen.cmd.Generate.run(Generate.java:124)
+        at io.swagger.codegen.SwaggerCodegen.main(SwaggerCodegen.java:35)
 
 
 SwaggerCompiler error
